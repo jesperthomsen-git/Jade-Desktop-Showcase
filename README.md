@@ -45,15 +45,24 @@ This repository is a **public portfolio**, not the application source or a downl
 
 ## Engineering values
 
-**Local-first.** Favor on-device processing and explicit dependencies.
+Jade's engineering approach combines **local-first design**, **Zero Trust Architecture**, **defense in depth**, **least privilege**, **secure-by-design defaults**, and **evidence-based security testing**. These are guiding principles, not claims that all protections are already implemented.
 
-**Least privilege.** Sensitive capabilities should be separately authorized, narrowly scoped, and disabled by default.
+| Principle or method | What it means for Jade | Current standing |
+| --- | --- | --- |
+| **Zero Trust Architecture** | Verify identities and authorize each sensitive operation; do not trust a connection merely because it is local. | Design principle; production enforcement unverified |
+| **Least privilege & default deny** | Grant only necessary capabilities, data scope and duration; deny private memory by default. | Memory default-deny demonstrated; broader controls planned |
+| **Defense in depth & component isolation** | Maintain multiple independent boundaries between UI, Core, model, tools and personal data. | Architecture goal; OS isolation testing blocked |
+| **Authenticated IPC & peer identity** | Validate the communicating service/process and its live instance instead of trusting localhost or a PID alone. | Synthetic experiments; production validation pending |
+| **Secure credential handling & lifecycle controls** | Protect credentials, minimize exposure, and design for revocation, restart and recovery. | Planned and under review |
+| **Input validation & anti-exploitation hardening** | Restrict accepted operations and data; use bounded messages, safe defaults and independently enforced permissions. | Selected synthetic tests; broader hardening planned |
+| **Prompt-injection resistance** | Treat retrieved notes, model responses and future external content as untrusted; never let content grant itself tool permissions. | Threat-model requirement; adversarial validation planned |
+| **Human authorization & consent** | Require explicit, narrowly scoped approval before private data is read or sent into model context. | Private access disabled; consent workflow planned |
+| **Security testing & responsible disclosure** | Use synthetic fixtures, negative tests, documented limitations and private remediation before public summaries. | Active development practice |
+| **Portability & maintainability** | Keep shared logic independent of Windows/Linux-specific security adapters. | Architectural direction |
 
-**Evidence over claims.** Synthetic test passes are useful, but do not establish production security.
+We use the **MITRE ATT&CK**, **MITRE ATLAS** and **MITRE CWE** knowledge bases to inform threat reviews, including AI-specific threats. They are **reference frameworks**, not proof that Jade has mitigated every listed technique.
 
-**Modular and portable.** Keep shared application logic separate from Windows- and Linux-specific security mechanisms.
-
-**Iterative learning.** Record milestones, blockers, trade-offs, and lessons rather than hiding unfinished work.
+Read the [security terminology, review process and implementation-status notes](docs/SECURITY_APPROACH.md). We share defensive lessons at a high level, without publishing exploit recipes, bypass details, or sensitive test configurations.
 
 ## Explore the project
 
