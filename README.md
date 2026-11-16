@@ -12,6 +12,12 @@ Jade Desktop is an independent personal project exploring how to build an approa
 
 This repository is a **public portfolio**, not the application source or a downloadable release.
 
+![Jade Desktop's current Memory Orb HUD design concept, showing the companion, status panels, and illustrative memory network](assets/jade-hud-v2-memory-orb.webp)
+
+*Design concept — not a screenshot of the working app. The pictured memory data, commands, vitals, and agenda are illustrative; private memory remains disabled.*
+
+[Explore Jade's visual evolution →](docs/GALLERY.md)
+
 ## Progress at a glance
 
 | Capability | Status |
