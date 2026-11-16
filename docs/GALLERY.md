@@ -1,29 +1,43 @@
-# Visual gallery
+# Jade Desktop — visual evolution
 
-The **current, owner-approved visual references** are Jade's *Sakura Holographic Network* character artwork and the **newer approved Jade Desktop HUD concept**. Both are **concept images, not screenshots of running software**.
+These four images are **concept artwork** supplied by the project owner. They document Jade's character design and how the envisioned desktop HUD has evolved. They are **not screenshots of the running application**.
 
-## 1. Jade — Sakura Holographic Network
+## Character concepts
 
-![Jade's Sakura Holographic Network — character concept, not a Live2D screenshot](../assets/jade-sakura-holographic-network.png)
+### Jade — Sakura Holographic Network
 
-Official character presentation: silver-white hair, violet eyes, jade-green floral ornament, black-and-white outfit, cherry blossoms, and a glowing holographic network. This is **concept artwork**, not the rigged Live2D model.
+![Jade with silver-white hair, violet eyes, cherry blossoms and a glowing holographic network](../assets/Jade’s%20Sakura%20Holographic%20Network.png)
 
-## 2. Jade Desktop — approved HUD concept (current)
+A character-focused concept with botanical details and a holographic network. This is illustration, not an integrated Live2D capture.
 
-![Approved Jade Desktop HUD concept with Jade, system panels, command deck, agenda and illustrative memory network](../assets/jade-approved-hud-concept.png)
+### Jade — original character concept
 
-**Current preferred HUD design reference**, replacing the earlier *Memory Network Dashboard* mockup. The dark interface, mint/violet accents, character placement and panel organization are design targets.
+![Original Jade character artwork with silver-white hair and violet accents](../assets/jade-character-concept.png)
 
-**Concept-only elements:** The pictured live system metrics, memory retrieval/activity, memory counts and network graph, vault commands, agenda and audio controls are illustrative. Their presence in the mockup **does not mean these capabilities are implemented or enabled**. In particular, real private memory remains denied.
+An earlier portrait establishing Jade's visual identity. Concept artwork and the working Live2D model are distinct.
 
-> The image links above will display once the two approved image files are uploaded to the repository's `assets/` folder. The documentation is updated first so no older HUD is presented as the approved version.
+## HUD design evolution
 
-## Actual application screenshot — pending
+### Version 1 — Memory Network Dashboard (earlier exploration)
 
-A genuine screenshot of the working Tauri/React development app will be added **separately** after review and redaction, labeled *Windows development build — not a packaged release*. It must not be confused with the two images above.
+![Earlier Jade Memory Network Dashboard concept](../assets/Jade%20Memory%20Network%20Dashboard-old-Concept.png)
 
-## Publication checks
+An earlier interface exploration centered on the character and a visual memory-network dashboard. It represents the original ambition for a richer, context-aware companion.
 
-- Never publish real vault content, credentials, private paths, account identifiers, logs or notifications.
-- Label concept art and actual app screenshots distinctly.
-- Verify the displayed feature status against demonstrated development evidence.
+### Version 2 — Jade Desktop approved HUD (newer direction)
+
+![Newer approved Jade Desktop HUD concept](../assets/Jade-Desktop-Approved-HUD-new-Concept.png)
+
+The **current preferred direction**: dark terminal-inspired panels, restrained jade/mint and violet accents, clear system status, a command deck, agenda, and central character presentation. This is a **design target**, not a working feature list.
+
+## Important implementation distinction
+
+Both HUDs contain **illustrative** elements. Their memory graphs and counts, vault commands, memory retrieval/activity, audio controls, agenda, system metrics and other depicted states **do not prove those features exist or are enabled**. In particular, real private Obsidian memory remains disabled pending explicit authorization and security validation.
+
+A separately labeled screenshot of the **actual running Windows development app** is planned once it is captured and checked for private information.
+
+## Artwork provenance and publication
+
+The four images were selected by the project owner for this showcase. The gallery expects the original PNG files from the supplied ZIP under `assets/` (not the enclosing ZIP folders). Until those files are uploaded, GitHub may show broken image previews.
+
+Never publish real notes, credentials, machine paths, unredacted logs or private desktop content. Keep concept art and verified runtime screenshots clearly distinguished.
