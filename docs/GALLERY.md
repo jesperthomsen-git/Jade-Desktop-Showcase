@@ -1,21 +1,29 @@
 # Visual gallery
 
-Jade's visual direction is documented with two **concept-art assets** selected for the public showcase. These are illustrations, **not screenshots of the running application**.
+The **current, owner-approved visual references** are Jade's *Sakura Holographic Network* character artwork and the **newer approved Jade Desktop HUD concept**. Both are **concept images, not screenshots of running software**.
 
-| Asset | Meaning | Status |
-| --- | --- | --- |
-| Official Jade character portrait | Character identity: silver-white hair, violet eyes, jade ornament, white-and-dark outfit | Selected for publication; image upload pending |
-| Memory Network Dashboard concept | Visual exploration of a dark violet/mint HUD with avatar, chat, agenda, and memory graph | Selected for publication; image upload pending |
+## 1. Jade — Sakura Holographic Network
 
-**Important:** The Memory Network Dashboard is a **design mockup**. Its displayed memory graph, file retrieval, agenda, email, and metrics are illustrative and must not be interpreted as implemented or enabled features. The current development app still denies private memory access.
+![Jade's Sakura Holographic Network — character concept, not a Live2D screenshot](../assets/jade-sakura-holographic-network.png)
 
-## Planned verified application screenshot
+Official character presentation: silver-white hair, violet eyes, jade-green floral ornament, black-and-white outfit, cherry blossoms, and a glowing holographic network. This is **concept artwork**, not the rigged Live2D model.
 
-A separate screenshot of the **actual running development app** will be added only after it has been captured and reviewed for private information. It should show only demonstrated functionality and should carry a label such as *Windows development build — not a packaged release*.
+## 2. Jade Desktop — approved HUD concept (current)
+
+![Approved Jade Desktop HUD concept with Jade, system panels, command deck, agenda and illustrative memory network](../assets/jade-approved-hud-concept.png)
+
+**Current preferred HUD design reference**, replacing the earlier *Memory Network Dashboard* mockup. The dark interface, mint/violet accents, character placement and panel organization are design targets.
+
+**Concept-only elements:** The pictured live system metrics, memory retrieval/activity, memory counts and network graph, vault commands, agenda and audio controls are illustrative. Their presence in the mockup **does not mean these capabilities are implemented or enabled**. In particular, real private memory remains denied.
+
+> The image links above will display once the two approved image files are uploaded to the repository's `assets/` folder. The documentation is updated first so no older HUD is presented as the approved version.
+
+## Actual application screenshot — pending
+
+A genuine screenshot of the working Tauri/React development app will be added **separately** after review and redaction, labeled *Windows development build — not a packaged release*. It must not be confused with the two images above.
 
 ## Publication checks
 
-- No real notes, filenames from a private vault, credentials, paths, hostnames, account identifiers, or terminal logs.
-- Keep all concept art clearly distinguished from verified application screenshots.
-- Use descriptive alt text and preserve the original artwork's proportions.
-- Do not publish a synthetic or generated interface as proof of working features.
+- Never publish real vault content, credentials, private paths, account identifiers, logs or notifications.
+- Label concept art and actual app screenshots distinctly.
+- Verify the displayed feature status against demonstrated development evidence.
