@@ -71,7 +71,7 @@ Jade Desktop is developed with clearly defined responsibilities and owner-contro
 | Role | Identity | Responsibility |
 | --- | --- | --- |
 | **Project Owner (You)** | Project Lead | Set the vision, priorities, and requirements. Approve merges, sensitive operations, and major decisions. |
-| **Sage — Technical Advisor** | Technical Architect & Security Reviewer | Plan architecture, review code, identify security risks, maintain roadmap priorities, and advise on decisions. |
+| **Sage — Technical Advisor** | Technical Architect, Security Reviewer & Objective QA | Plan architecture, review code, identify security risks, maintain roadmap priorities, advise on decisions, and independently assess implementation evidence, test quality, and Sage's own recommendations. |
 | **Emerald — Coding Agent** | Lead Developer | Implement features, write tests, investigate bugs, prepare pull requests, and report progress for review. |
 | **Jade — AI Companion** | The Product | The independent, local-first AI companion under development, with planned conversation, memory, voice, and authorized integrations. |
 
