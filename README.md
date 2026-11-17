@@ -75,6 +75,8 @@ Jade Desktop is developed with clearly defined responsibilities and owner-contro
 | **Emerald — Coding Agent** | Lead Developer | Implement features, write tests, investigate bugs, prepare pull requests, and report progress for review. |
 | **Jade — AI Companion** | The Product | The independent, local-first AI companion under development, with planned conversation, memory, voice, and authorized integrations. |
 
+**Independent decision challenge:** Sage also respectfully challenges the project owner's decisions when evidence, security, feasibility, or roadmap priorities warrant it, explaining trade-offs and alternatives while preserving the owner's final decision authority.
+
 ### Team workflow
 
 ```text
