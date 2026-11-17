@@ -1,4 +1,4 @@
-# Jade Desktop 🌿
+# Jade Desktop
 
 **A local-first AI companion — built with privacy, thoughtful design, and security-minded engineering.**
 
@@ -63,6 +63,38 @@ Jade's engineering approach combines **local-first design**, **Zero Trust Archit
 We use the **MITRE ATT&CK**, **MITRE ATLAS** and **MITRE CWE** knowledge bases to inform threat reviews, including AI-specific threats. They are **reference frameworks**, not proof that Jade has mitigated every listed technique.
 
 Read the [security terminology, review process and implementation-status notes](docs/SECURITY_APPROACH.md). We share defensive lessons at a high level, without publishing exploit recipes, bypass details, or sensitive test configurations.
+
+## Project organization
+
+Jade Desktop is developed with clearly defined responsibilities and owner-controlled decisions.
+
+| Role | Identity | Responsibility |
+| --- | --- | --- |
+| **Project Owner (You)** | Project Lead | Set the vision, priorities, and requirements. Approve merges, sensitive operations, and major decisions. |
+| **Sage — Technical Advisor** | Technical Architect & Security Reviewer | Plan architecture, review code, identify security risks, maintain roadmap priorities, and advise on decisions. |
+| **Emerald — Coding Agent** | Lead Developer | Implement features, write tests, investigate bugs, prepare pull requests, and report progress for review. |
+| **Jade — AI Companion** | The Product | The independent, local-first AI companion under development, with planned conversation, memory, voice, and authorized integrations. |
+
+### Team workflow
+
+```text
+               Project Owner (You)
+                Decide and authorize
+                         |
+               +---------+---------+
+               |                   |
+              Sage               Emerald
+       Architecture, review    Development, tests
+          and security         and pull requests
+               |                   |
+               +---------+---------+
+                         |
+                         v
+                        Jade
+                AI Companion (Product)
+```
+
+**Decision authority:** The project owner retains final approval. Sage reviews and advises; Emerald implements and tests. Jade is the product being developed, not an independent approval authority.
 
 ## Explore the project
 
